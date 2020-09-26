@@ -1,6 +1,6 @@
 # My personal link shortener
 
-Follow me on twitter: https://fmoliveira.link/twitter
+Follow me on twitter: https://fmo.li/twitter
 
 ## Credits
 
