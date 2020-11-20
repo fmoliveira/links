@@ -1,15 +1,24 @@
+# My public GPG key that I use to sign my commits
 /gpg                    https://keys.openpgp.org/search?q=contato%40fmoliveira.com.br
 /pgp                    https://keys.openpgp.org/search?q=contato%40fmoliveira.com.br
+
+# My social networks
 /github                 https://github.com/fmoliveira
 /twitter                https://twitter.com/tfmoliveira
 /follow                 https://twitter.com/intent/user?screen_name=tfmoliveira
 /twitch                 https://www.twitch.tv/fmoliveira
 /youtube                https://www.youtube.com/channel/UC5v4VI22E1vzCcBmQp9CSnQ
 /yt                     https://www.youtube.com/channel/UC5v4VI22E1vzCcBmQp9CSnQ
+/linkedin               https://www.linkedin.com/in/tfmoliveira/
+
+# Communities I'm starting to build...
 /discord                https://discord.gg/kQgBgUv
 /streaming-calendar     https://calendar.google.com/calendar/embed?src=t8gdb78eu8keq0m6hqngnh2094%40group.calendar.google.com
-/linkedin               https://www.linkedin.com/in/tfmoliveira/
+
+# Short links shared in my content
 /cy-rtl                 https://testing-library.com/docs/cypress-testing-library/intro  
 /cy-best                https://docs.cypress.io/guides/references/best-practices.html
 /cy-commands            https://docs.cypress.io/api/cypress-api/custom-commands.html#Best-Practices
+
+# Home page :)
 /*                      https://fmoliveira.dev
