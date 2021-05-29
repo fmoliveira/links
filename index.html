@@ -12,6 +12,8 @@
 
     <style type="text/css">
       body {
+        display: flex;
+        flex-direction: column;
         margin: 1em;
         background: #1f2a37;
         color: #f3f4f6;
@@ -20,11 +22,19 @@
       }
 
       header {
-        padding: 1em;
+        padding: 0.5em;
+        font-size: 0.8em;
+        white-space: nowrap;
+      }
+
+      main {
+        width: 100%;
       }
 
       img.avatar {
         margin: 0 auto;
+        width: 150px;
+        height: 150px;
         display: block;
         background: #60a5fa;
         border-radius: 50%;
@@ -33,7 +43,7 @@
       a {
         display: block;
         margin: 1em auto;
-        padding: 1.2em;
+        padding: 1em;
         background: #ffffff;
         color: #1351bb;
         max-width: 500px;
@@ -45,6 +55,32 @@
       a:hover {
         background: #60a5fa;
         color: #ffffff;
+      }
+
+      @media screen and (orientation: landscape) {
+        body {
+          flex-direction: row;
+          gap: 2em;
+        }
+      }
+
+      @media screen and (min-width: 600px) and (min-height: 600px) {
+        body {
+          flex-direction: column;
+        }
+
+        header {
+          font-size: 1em;
+        }
+
+        img.avatar {
+          width: 200px;
+          height: 200px;
+        }
+
+        a {
+          padding: 1.2em;
+        }
       }
     </style>
   </head>
